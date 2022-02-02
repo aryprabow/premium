@@ -3,7 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- https://icanhazip.com);
-IZIN=$(curl https://raw.githubusercontent.com/faiz007t/premium/main/ipvps | grep $MYIP)
+IZIN=$(curl https://raw.githubusercontent.com/aryprabow/premium/main/ipvps | grep $MYIP)
 if [ $MYIP = $IZIN ]; then
 clear
 echo -e ""
